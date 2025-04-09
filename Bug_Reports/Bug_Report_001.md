@@ -1,19 +1,29 @@
-# Bug Report: Login issue
+# 🐞 Bug Reports - Login Page  
 
-**Bug ID:** BR001
+## ❗ Bug 01: Incorrect Error Message on Login Failure  
 
-**Description:**
-Login button is not clickable when the password is incorrect.
+### 📌 General Information  
+- **Bug ID:** BR001  
+- **Severity:** 🟠 Medium  
+- **Priority:** 🔴 High  
+- **Status:** 🟡 Open  
+- **Environment:**  
+  - OS: Windows 11  
+  - Browser: Chrome 120.0  
+  - Device: PC  
 
-**Steps to Reproduce:**
-1. Go to the login page.
-2. Enter an incorrect password.
-3. Try to click the login button.
+### 🔄 Steps to Reproduce  
+1. Open the **login page**  
+2. Enter a **valid username** and an **incorrect password**  
+3. Click the **"Login"** button  
 
-**Expected Result:**
-Login button should display an error message.
+### ✅ Expected Result  
+- The system should display an **informative** error message:  
+  - **"Incorrect username or password. Please try again."**  
 
-**Actual Result:**
-Login button does not respond when clicked.
+### ❌ Actual Result  
+- The system displays a **generic** error message:  
+  - **"Error."**  
 
-**Severity:** High
+### 📷 Attachments  
+- 🖼 **Screenshot:** [https://prnt.sc/eLXfhwvVAuNq]  
